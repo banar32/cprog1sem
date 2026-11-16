@@ -50,6 +50,14 @@
 **13,14,15:**
 <img width="1086" height="609" alt="изображение" src="https://github.com/user-attachments/assets/eeb108f2-9ea3-4d75-a86d-e6d80088ea49" /> 
 **После смены ветки на mybranch, заметим что файла file2.txt не отображается в данной ветке, затем с помощью команды gitdif увидим разницу в ветках**  
+**16,17:**
+<img width="1313" height="893" alt="изображение" src="https://github.com/user-attachments/assets/22fc50b6-ad66-4bab-9516-24bccab3b85f" />  
+<img width="564" height="229" alt="изображение" src="https://github.com/user-attachments/assets/4730e347-01c9-4ce6-9519-aa91ad6d4c3a" />  
+**добавили README.MD в ветку mybranch, а также закоммитили и запушили её на удалённый репозиторий, затем убедились что всё на месте**
+## Оценка 4:  
+
+
+
 
 
 
