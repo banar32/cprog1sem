@@ -27,5 +27,36 @@
 **Заметим, что теперь опережаем на 2 коммита, а значит закоммитился предпоследний комментарий, а последний ещё даже не в stage**  
 **16,17**
 <img width="1431" height="914" alt="изображение" src="https://github.com/user-attachments/assets/20449a84-db3d-4439-a0b9-f3c02b3c82ea" />
-**Добавили в stage, заккомитили, а также отправили изменения на удалённый репозиторий**
+**Добавили в stage, закоммитили, а также отправили изменения на удалённый репозиторий**
 ### Ветки:
+**1,2:**  
+<img width="543" height="169" alt="изображение" src="https://github.com/user-attachments/assets/23f39d4b-ca34-4058-a600-97956b76bded" />  
+**Создали ветку mybranch,активной до сих пор является main**   
+**3,4,5:**
+<img width="978" height="327" alt="изображение" src="https://github.com/user-attachments/assets/9cee14c4-61be-4bb0-94c8-7b63cb5c698e" />  
+**Сделали ветку mybranch активной, затем убедились в этом**  
+**6,7:**
+<img width="1522" height="240" alt="изображение" src="https://github.com/user-attachments/assets/2389a71e-46c9-49fb-9237-ca9c01e2dcbc" /> 
+**Создали файл куда добавили свой никнейн и закомитили его**  
+**8,9,10:**
+<img width="1604" height="654" alt="изображение" src="https://github.com/user-attachments/assets/1d7aee37-f702-49c0-9888-6dd08d00c851" /> 
+**Убедились что ветка указывает на новый коммит, затем переключились на ветку main и заметили что коммит из ветки mybranch не отображается**
+**11:**
+<img width="938" height="250" alt="изображение" src="https://github.com/user-attachments/assets/fea5de54-fc29-46e7-8922-b902788a440e" />
+**Создали и закоммитили file2.txt**  
+**12:**
+<img width="1510" height="372" alt="изображение" src="https://github.com/user-attachments/assets/0e7ab795-eb92-49b7-8435-5d035268cb14" />
+**Заметим, что у двух наших веток разные коммиты**  
+**13,14,15:**
+<img width="1086" height="609" alt="изображение" src="https://github.com/user-attachments/assets/eeb108f2-9ea3-4d75-a86d-e6d80088ea49" /> 
+**После смены ветки на mybranch, заметим что файла file2.txt не отображается в данной ветке, затем с помощью команды gitdif увидим разницу в ветках**  
+
+
+
+
+
+
+
+
+
+
