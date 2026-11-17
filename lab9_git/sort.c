@@ -9,3 +9,13 @@ void bubbleSort(int arr[], int n) {
         }
     }
 }
+int main(){
+    int arr[] = {1,3,4,2,5};
+    int n =5;
+    bubbleSort(arr,n);
+    for (int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+
+}
