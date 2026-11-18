@@ -86,7 +86,46 @@ sort.c, поэтому написав git diff --staged уже сравнили 
 **23:**
 <img width="1123" height="347" alt="изображение" src="https://github.com/user-attachments/assets/974b2382-e322-43f4-847a-c917817cccc6" />
 **Запушили**  
-# Ветки и ff-merge
+# Ветки и ff-merge  
+**1,2:**:
+<img width="837" height="212" alt="изображение" src="https://github.com/user-attachments/assets/d65e303c-2dc5-4033-8e0a-8030bf346152" />  
+<img width="833" height="127" alt="изображение" src="https://github.com/user-attachments/assets/55a08010-eb01-4af4-a49b-f5fc3d4d129e" />  
+**Создали файл greeting и закоммитили его, затем добавили туда hello и снова закоммитили**  
+**3,4,5:**  
+<img width="817" height="207" alt="изображение" src="https://github.com/user-attachments/assets/d71daee7-b69e-43e9-9763-cc34947fcbf0" />
+**Создали новую ветку, переключились на неё, git status показал что изменений нет, логично ведь внутри неё не делали ни одного коммита**  
+**6,7,8,9:**  
+<img width="1137" height="271" alt="изображение" src="https://github.com/user-attachments/assets/aa8a7b8a-5c81-46df-9f65-8b04e4ccf49b" />  
+<img width="1291" height="140" alt="изображение" src="https://github.com/user-attachments/assets/36568b78-386c-43cf-8f0d-3b7312f1fe08" />  
+**Отредактировали файл greeting и закоммитили его, затем c git branch убедились что находимся в новой ветке, с помощью git log увидели, что
+функция что последний коммит ушёл на 1 коммит вперёд относительно main**  
+**10,11,12:**  
+<img width="1126" height="492" alt="изображение" src="https://github.com/user-attachments/assets/e268922a-3c2d-4ae4-a6f0-8f063d879a71" />
+**Переключились на ветку main, там вывели сначала сам файл а потом посмотрели разницу с файлом, который коммитили в ветке feature/uppercase** 
+**13,14,15:**  
+<img width="756" height="211" alt="изображение" src="https://github.com/user-attachments/assets/8b50a348-375c-49c2-977e-bc4e9bc23011" />  
+<img width="828" height="74" alt="изображение" src="https://github.com/user-attachments/assets/473354df-c87b-4214-bb23-ca790b2d91ce" />  
+**Смёржили ветку feature/uppercase В main, вывели содержимое и убедились что в файле greeting HELLO с последнего коммита ветки feature/uppercase, затем
+удалили ветку feature/uppercase**  
+**16,17,18:**  
+<img width="1797" height="211" alt="изображение" src="https://github.com/user-attachments/assets/5f9fa8e2-2632-4904-afa1-05fb84a442c7" />  
+<img width="1119" height="247" alt="изображение" src="https://github.com/user-attachments/assets/3d4b6a1c-9d94-4634-8819-1c05739503a2" />
+**Смержили mybranch в main, видим что произошёл мерж-коммит так как ветки разошлись поэтому фаст-форвард невозможен**  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
