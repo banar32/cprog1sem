@@ -111,6 +111,87 @@ sort.c, поэтому написав git diff --staged уже сравнили 
 <img width="1797" height="211" alt="изображение" src="https://github.com/user-attachments/assets/5f9fa8e2-2632-4904-afa1-05fb84a442c7" />  
 <img width="1119" height="247" alt="изображение" src="https://github.com/user-attachments/assets/3d4b6a1c-9d94-4634-8819-1c05739503a2" />
 **Смержили mybranch в main, видим что произошёл мерж-коммит так как ветки разошлись поэтому фаст-форвард невозможен**  
+## Оценка 5:
+# Часть 1
+**1,2,3:**  
+<img width="948" height="278" alt="изображение" src="https://github.com/user-attachments/assets/eb6b66e5-55d5-4e66-a57d-7814c8e51c76" />  
+**Создали ветку branch1, создали файл при помощи echo, добавили в stage и закоммитили**  
+**4,5:**  
+<img width="977" height="313" alt="изображение" src="https://github.com/user-attachments/assets/a2606013-c934-40c5-845a-daa297d19443" />  
+**Переключились на ветку main, создали file.txt с другим содержимым при помощи echo, добавили в stage+закомиитили**  
+**6:**  
+<img width="1099" height="149" alt="изображение" src="https://github.com/user-attachments/assets/c07067d8-bae6-43d3-9d43-9727d6d007aa" />  
+**Вывели граф и увидели что коммиты разошлись, теперь нельзя просто сделать fast forward, будет конфликт**  
+**7:**  
+<img width="1312" height="148" alt="изображение" src="https://github.com/user-attachments/assets/6785543c-3b53-405a-adc9-042b34a7b8c2" />  
+**Попробовали смержит, закономерно увидели конфликт**  
+**8:**  
+<img width="1166" height="483" alt="изображение" src="https://github.com/user-attachments/assets/5a684916-8844-4252-9fcb-c2e8292af36d" />  
+**Увидели неслитые пути(оба file.txt добавлены в коммит)**  
+**9:**  
+<img width="2190" height="232" alt="изображение" src="https://github.com/user-attachments/assets/3ffd79fc-3802-4e0a-afeb-0f7fd5c62a22" />  
+<img width="989" height="211" alt="изображение" src="https://github.com/user-attachments/assets/b39221be-0cdc-4a93-af88-ee8c29fb363a" />  
+<img width="699" height="106" alt="изображение" src="https://github.com/user-attachments/assets/ac55fa19-13a2-41e6-97ec-c6c5031a5529" />
+**Исправил конфликт, удалив маркеры конфликта и оставил текст который коммитили в ветке main**  
+**10,11:**  
+<img width="934" height="187" alt="изображение" src="https://github.com/user-attachments/assets/e662b5c4-853e-4872-9d53-8b7dbba2edd1" />  
+<img width="1115" height="346" alt="изображение" src="https://github.com/user-attachments/assets/66048b80-e9bf-4c96-beb3-5658b534ee01" />  
+**Увидели что ветки слились в 1 коммит, затем запушили изменения**  
+# Часть 2:
+**1,2:**  
+<img width="1321" height="236" alt="изображение" src="https://github.com/user-attachments/assets/d4300d01-6b22-4e28-9dfa-0bd5c1bba88d" />
+<img width="762" height="169" alt="изображение" src="https://github.com/user-attachments/assets/8cc1c675-21bd-4842-8c41-f8c09d1cea12" />  
+**Создали файл mergesort.py, добавили туда base.py и закоммитили**  
+**3,4,5:**  
+<img width="734" height="81" alt="изображение" src="https://github.com/user-attachments/assets/b8d42a93-6c35-4966-92d2-0623986de639" />  
+<img width="1106" height="717" alt="изображение" src="https://github.com/user-attachments/assets/b492a38f-7ddb-471b-86ad-2bf97e9dc7ec" />  
+<img width="908" height="152" alt="изображение" src="https://github.com/user-attachments/assets/0c194662-151d-44e5-b5c8-280f14ecb2de" />  
+**Переключились на созданную ветку, добавили в файл mergesort код из righty.py и закоммитили изменения**  
+**6,7:**  
+<img width="1668" height="695" alt="изображение" src="https://github.com/user-attachments/assets/e323ee19-d72c-43aa-9510-f9cba9ad5da0" />  
+<img width="826" height="144" alt="изображение" src="https://github.com/user-attachments/assets/2e22350e-83b5-444a-8bee-a8ef9285081e" />  
+**Вернулись в метку main, поменяли содержимое файла mergesort на код из lefty.py и закоммитили изменения**  
+**8,9**:  
+<img width="814" height="134" alt="изображение" src="https://github.com/user-attachments/assets/edf04b33-2294-433c-8319-a73f5af4d6a0" />  
+<img width="309" height="166" alt="изображение" src="https://github.com/user-attachments/assets/03c1d684-730e-421d-9e02-ed33c1a2b3d7" />  
+**Видем ветка main опережает origin/main на 2 коммита, псоел команды git branch убедились что находимся в main**  
+**10:**:  
+<img width="1292" height="146" alt="изображение" src="https://github.com/user-attachments/assets/db3aa979-4483-4f93-88c9-043feb38dd06" />  
+**После попытки мержа, видем что нужно исправить конфликты**  
+**11:**  
+<img width="1329" height="702" alt="изображение" src="https://github.com/user-attachments/assets/f80befdd-9f2f-474c-8a4b-3a7b1b75ddce" />  
+<img width="1092" height="450" alt="изображение" src="https://github.com/user-attachments/assets/d534d2f0-a663-4c5a-aa41-0c54891c8433" />  
+**Исправили конфлиикты, закоммитли файл mergesort и запушили изменения**  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
